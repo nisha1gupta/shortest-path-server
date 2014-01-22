@@ -140,7 +140,7 @@ License
 
 This file is part of Shortest-Path-Server.
 
-Copyright (c) 2013 __your-name-here__
+Copyright (c) 2013 Nisha Gupta
 
 Shortest-Path-Server is free software: you can redistribute it and/or modify it
 under the terms of the GNU General Public License as published by the Free
