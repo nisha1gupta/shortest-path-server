@@ -34,14 +34,32 @@ Instructions
 Solution Notes
 --------------
 
-*Add solution notes here*
+The solution finds the shortest path from a given vertex to another in the directed acyclic graph using Dijkstra's greedy algorithm. The solution is implemented in JAVA.
 
+The solution waits for incoming connections on the localhost port 7777, and once a connection is made, it processes the data, runs the shortest path algorithm on the data, and exits after printing the solution.
 
 Build Instructions
 ------------------
 
-*Add build instructions here*
+Given the platform-independent nature of JAVA, the solution can be run on any platform. To compile the solution use the javac command from the 'src' folder as follows:
 
+javac me/solution/*.java
+
+To run the solution use the java command as follows:
+
+java me.solution.Main
+
+Bonus
+-----
+
+Some speifications that would have been helpful and/or could effect the runtime of the solution were missing from the requirements. Belows is a list of some of them.
+
+1. It is not clear whether the application is to run continuously accepting connections until interrupted (in which case concurrency should be addressed) or it is to process one request at a time and exit (which is the approach I took).
+2. It is not clear whether the solution would be tested as a whole (socket programming, data processing, output printing, with the algorithmic portion) or the focus of the analysis would be applicable solely to the applicable portion.
+3. Error-handling specifications are missing from requirements, which at the very least could be a bare-boned specification.
+4. It would be helpful to know what components the reference solution encompasses so that we could get an idea of what our solution is going to compared against.
+5. It would have helped to know if we were going to be judged on an average-case, or worst-case scenario so that the choice of the algorithm could have been made accordingly.
+6. The input data specifications could be clearer to resolve ambiguities in data interpretations. While the solution processed the data files, but the file map2.bin shows negative values (I am not sure if this is intentional, accidental, or the solution does not process the particular files data appropriately due to some missing assumptions or directions).
 
 Requirements
 ------------
