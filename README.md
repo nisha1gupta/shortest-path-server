@@ -55,7 +55,7 @@ Bonus
 Some speifications that would have been helpful and/or could effect the runtime of the solution were missing from the requirements. Belows is a list of some of them.
 
 1. It is not clear whether the application is to run continuously accepting connections until interrupted (in which case concurrency should be addressed) or it is to process one request at a time and exit (which is the approach I took).
-2. It is not clear whether the solution would be tested as a whole (socket programming, data processing, output printing, with the algorithmic portion) or the focus of the analysis would be applicable solely to the applicable portion.
+2. It is not clear whether the solution would be tested as a whole (socket programming, data processing, output printing, with the algorithmic portion) or the focus of the analysis would be applicable solely to the algorithmic portion.
 3. Error-handling specifications are missing from requirements, which at the very least could be a bare-boned specification.
 4. It would be helpful to know what components the reference solution encompasses so that we could get an idea of what our solution is going to compared against.
 5. It would have helped to know if we were going to be judged on an average-case, or worst-case scenario so that the choice of the algorithm could have been made accordingly.
